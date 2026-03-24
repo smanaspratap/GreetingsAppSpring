@@ -1,0 +1,133 @@
+# =============================================
+# SPRING BOOT - COMPLETE .gitignore
+# Covers: Maven, IntelliJ, STS, VSCode,
+#         Java, Logs, OS, Secrets, Gradle
+# =============================================
+
+
+# -------  MAVEN BUILD OUTPUT  ---------------
+target/
+!.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+
+# -------  GRADLE (future-proof)  ------------
+.gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+gradle-app.setting
+!gradle-wrapper.jar
+
+
+# -------  JAVA COMPILED FILES  --------------
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+
+
+# -------  INTELLIJ IDEA  --------------------
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.shelf/
+
+
+# -------  SPRING TOOL SUITE (STS/Eclipse)  --
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+.metadata/
+bin/
+tmp/
+
+
+# -------  VS CODE (future-proof)  -----------
+.vscode/
+*.code-workspace
+
+
+# -------  LOGS  -----------------------------
+logs/
+*.log
+*.log.gz
+*.log.*
+spring.log
+
+
+# -------  SECRETS & ENVIRONMENT  ------------
+.env
+.env.*
+*.env
+application-local.properties
+application-local.yml
+application-secret.properties
+application-secret.yml
+secrets.properties
+
+
+# -------  OS FILES  -------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+
+
+# -------  GIT MERGE ARTIFACTS  -------------
+*.orig
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
+
+# -------  TEMP & SWAP FILES  ----------------
+*.tmp
+*.bak
+*.swp
+*.swo
+*.diff
+*.patch
+*.rej
+*#
+.#*
+
+
+# -------  TEST REPORTS (keep src, ignore output)
+/test-output/
